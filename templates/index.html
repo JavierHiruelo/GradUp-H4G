@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>GradUp</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="icon" href="https://gonzalobartual.com/wp-content/uploads/2024/02/grad.png" type="image/png"> 
+        <script src="https://kit.fontawesome.com/c0362f2eea.js" crossorigin="anonymous"></script> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <h1><img height="40" src="https://gonzalobartual.com/wp-content/uploads/2024/02/grad.png" title="GradUp Logo-"/><span class="h11">Grad</span><span class="h12">Up</span></h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="cv">
+                                <i class="fa-solid fa-scroll"></i> CV
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-circle-info"></i> Features
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <img height="40" src="{{ url_for('static', filename='images/user.png') }}" class="user-profile"/>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <a href="search">
+                <button class="search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg>  Search courses...
+                </button> 
+            </a>
+                      
+            <div class="cHolder">
+                <div class="discover">
+                    <div class="dHeader"> <i class="fa-solid fa-wand-magic-sparkles"></i> Improve your portfolio </div>
+
+                    <div class="dContent">
+                        <div class="ddcontent">
+                            <div class="contentHeader"> 
+                                Big Data Engineer Path
+                            </div>
+                            <div class="contentBody">
+                                We're offering this Big Data course because of your solid foundation in data engineering and web development, recognizing that expanding your expertise in managing and analyzing large datasets is essential for staying competitive in today's data-driven landscape. With your existing skills, this course will provide you with advanced techniques and specialized knowledge, opening doors to lucrative career opportunities in fields such as data analysis, business intelligence, and data science.    
+                            </div>
+                        </div>
+                        <div class="dImg">
+                            <img src="https://gonzalobartual.com/wp-content/uploads/2024/02/bdata.png" />
+                            <div class="generatePath"><span>Generate path</span> <i class="fa-solid fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="dContent">
+                        <div class="dImg2">
+                            <img src="https://gonzalobartual.com/wp-content/uploads/2024/02/scraping.png" />
+                            <div class="generatePath2"><i class="fa-solid fa-arrow-left"></i> <span>Generate path</span></div>
+                        </div>
+                        <div class="ddcontent2">
+                            <div class="contentHeader"> 
+                                Web Scraper Path
+                            </div>
+                            <div class="contentBody">
+                                Considering your background in data engineering and web development, pursuing a web scraping course is a strategic move to augment your skill set. Understanding the intricacies of web scraping not only enhances your ability to extract valuable data from diverse online sources but also empowers you to automate data collection processes effectively. This course equips you with the expertise to navigate through complex web structures, handle various data formats, and comply with legal and ethical standards in data scraping. With the proliferation of data on the web, mastering web scraping opens up avenues for roles such as data analyst, research scientist, and business intelligence developer, where the ability to gather and analyze web data is crucial for decision-making and innovation.    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="current">
+                    <div class="dHeader"> <i class="fa-solid fa-graduation-cap"></i> Continue Learning </div>
+                    <br/>
+                    <div class="c1">
+                        <div class="c1Holder">
+                            <span>Data Engineer Path</span> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <div class="c1Content">
+                            <div class="course">
+                                <div class="courseHeader">
+                                    <div class="cI"><span>Introduction to Data Engineering </span><i class="fa-solid fa-thumbs-up"></i></div>
+                                    <div class="cI"><span>Data Engineering Technologies </span><i class="fa-solid fa-thumbs-up"></i></div>
+                                    <div class="cI"><span>Data Manipulation and ETL Processes </span><i class="fa-solid fa-thumbs-up"></i></div>
+                                    <div class="cI"><span>Building a Strong Portfolio of Projects </span><i class="fa-solid fa-thumbs-up"></i></div>
+                                    <div class="cI"><span>Practical Experience Acquisition </span><i class="fa-solid fa-arrow-right"></i></div>
+
+                                    <div class="progress2 progress-moved">
+                                        <div class="progress-bar2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="c1">
+                        <div class="c1Holder c1Closed">
+                            <span>Web Developing Path</span> <i class="fa-solid fa-caret-right"></i>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="c1">
+                        <div class="c1Holder c1Closed">
+                            <span>Video Editing Path</span> <i class="fa-solid fa-caret-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

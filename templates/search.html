@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>GradUp</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="icon" href="https://gonzalobartual.com/wp-content/uploads/2024/02/grad.png" type="image/png"> 
+        <script src="https://kit.fontawesome.com/c0362f2eea.js" crossorigin="anonymous"></script> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <h1><img height="40" src="https://gonzalobartual.com/wp-content/uploads/2024/02/grad.png" title="GradUp Logo-"/><span class="h11">Grad</span><span class="h12">Up</span></h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="cv">
+                                <i class="fa-solid fa-scroll"></i> CV
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-circle-info"></i> Features
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <img height="40" src="{{ url_for('static', filename='images/user.png') }}" class="user-profile"/>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <a href="cv">
+                <button class="search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg>  Search courses...
+                </button> 
+            </a>
+            <div class="searchresults">
+                <div class="discover">
+                    <div class="dHeader"> Results for "Data science" </div>
+
+                    <div class="searchontent">
+                        <div class="searchcoursefeatured">
+                            <h2><a class="course_link" href="https://www.simplilearn.com/pgp-data-science-certification-bootcamp-program">Data Science for Business Decisions</a>
+                            </h2>
+                            <div class="searchcontentBody">
+                                <div class="row">
+                                    Data Science plays a major role in supporting organizations in making strategic business decisions. Learn this in-demand skill set and turn yourself into a data-driven decision-maker to optimize the performance of your organization.    
+                                </div>
+                                <div class="row">
+                                    <div class="column" style="padding-left: 3px;"><p class="ownership"></p>Course owned by: <a class="course_owner" href="https://www.ibm.com/es-es">IBM</a></div>
+                                    <div class="column" style="padding-left: 3px;">Rating: 4,5 / 5</div>
+                                    <div class="column" style="color: #00000048;
+                                    display: flex;
+                                    align-items: flex-end;
+                                    justify-content: flex-end;">
+                                        <div class="promotionalicon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="vertical-align:center;" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
+                                            </svg>
+                                            Featured
+                                        </div>
+                                    
+                                </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="searchcourse">
+                            <h2><a class="course_link" href="https://www.coursera.org/specializations/data-science-fundamentals-python-sql,https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/bd/0202c87e244d30bdecd889bd2719ae/DataScienceFundamentalsPythonSQL.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=600&h=216&fit=fill&q=50,52800.0,31178">Data Science Fundamentals with Python and SQL Specialization</a>
+                            </h2>
+                            <div class="contentBody">
+                                Development environments might not have the exact requirements as production environments. Moving data science and machine learning projects from idea to production requires state-of-the-art skills. You need to architect and implement your projects for scale and operational efficiency. Data science is an interdisciplinary field that combines domain knowledge with mathematics, statistics, data visualization, and programming skills. The Practical Data Science Specialization brings together these disciplines using purpose-built ML tools in the AWS cloud. It helps you develop the practical skills to effectively deploy your data science projects and overcome challenges at each step of the ML workflow using Amazon SageMaker. This Specialization is designed for data-focused developers, scientists, and analysts familiar with the Python and SQL programming languages who want to learn how to build, train, and deploy scalable, end-to-end ML pipelines - both automated and human-in-the-loop - in the AWS cloud.Each of the 10 weeks features a comprehensive lab developed specifically for this Specialization that provides hands-on experience with state-of-the-art algorithms for natural language processing (NLP) and natural language understanding (NLU), including BERT and FastText using Amazon SageMaker.                            </div>
+                            <div class="row">
+                                <div class="column" style="padding-left: 3px;"><p class="ownership"></p>Course owned by: <a class="course_owner" href="https://www.coursera.org/">Coursera</a></div>
+                                <div class="column" style="padding-left: 3px;">Rating: 4,9 / 5</div>
+                        </div>
+                    </div>
+                    <div class="searchcourse">
+                        <h2><a class="course_link" href="https://www.simplilearn.com/pgp-data-science-certification-bootcamp-program">Data Science: Foundations using R</a>
+                        </h2>
+                        <div class="contentBody">
+                            Ask the right questions, manipulate data sets, and create visualizations to communicate results.This Specialization covers foundational data science tools and techniques, including getting, cleaning, and exploring data, programming in R, and conducting reproducible research. Learners who complete this specialization will be prepared to take the Data Science: Statistics and Machine Learning specialization, in which they build a data product using real-world data.The five courses in this specialization are the very same courses that make up the first half of the Data Science Specialization. This specialization is presented for learners who want to start and complete the foundational part of the curriculum first, before moving onto the more advanced topics in Data Science: Statistics and Machine Learning."</div>
+                        <div class="row">
+                            <div class="column" style="padding-left: 3px;"><p class="ownership"></p>Course owned by: <a class="course_owner" href="https://www.ibm.com/es-es">John Hopkings university</a></div>
+                            <div class="column" style="padding-left: 3px;">Rating: 4,6 / 5</div>
+                            <div class="column" style="color: #00000048;
+                            display: flex;
+                            align-items: flex-end;
+                            justify-content: flex-end;">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
